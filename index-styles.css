@@ -1,0 +1,96 @@
+#corp-name {
+    display: flex;
+    justify-content: center; /* Horizontally center text */
+    align-items: center; /* Vertically center text */
+    position: absolute;
+    top: 90; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    right: 0; /* Adjust as needed */
+    text-align: center; /* Center text within the element */
+    font-size: 65px; /* Adjust font size as needed */
+    transition: transform 0.5s ease;
+    z-index: -1;
+}
+
+#emp-box{
+    
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    top:150;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 59%;
+    
+    
+    
+}
+
+#emp-box::-webkit-scrollbar{
+    display: none;
+}
+
+#emp {
+    
+    padding:60 150;
+    margin: 2% 8%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px 2px 80px 2px;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+#emp:hover {
+    transform: scale(2);
+    z-index: 1;
+}
+
+#corp-name:hover{
+    transform: scale(2);
+    z-index: 1;
+}
+
+
+#emp-photo {
+    position: absolute; 
+    top: 5; 
+    left: 6;
+    width: 10vw; 
+    height: auto;
+}
+
+img{
+    height: 100;
+}
+
+#emp-info{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:-15;
+    left: 120;
+    color: black;
+}
+
+
+#e-name{
+    position: absolute;
+    top:18;
+    font-size: 20;
+    width: 300px;
+}
+
+#e-des{position: absolute;
+    top:40;
+    left:0;
+    font-size: 18;
+}
+
+#e-cont{
+    position: absolute;
+    top:70;
+    left: 0;
+    font-size:18 ;
+}

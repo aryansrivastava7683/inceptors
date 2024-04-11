@@ -1,0 +1,43 @@
+body{
+    background-image: url(bg-main.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    color: white
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#navbar{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 44, 44, 0.944);
+    border-radius: 800px 8px;
+    align-items: center;
+    justify-content: center;
+    top:5;
+    left: 5%;
+    height: 4%;
+    width: 90%;
+    
+}
+
+#navbtn{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4%;
+
+    
+}
+
+#navbtn:hover{
+    cursor: pointer;
+}
